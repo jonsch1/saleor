@@ -1,7 +1,9 @@
 # Changelog
+
 All notable, unreleased changes to this project will be documented in this file. For the released changes, please visit the [Releases](https://github.com/mirumee/saleor/releases) page.
 
 ## [Unreleased]
+
 - Use USERNAME_FIELD instead of hard-code email field when resolving user - #3577 by @jxltom
 - Support returning user's checkouts in GraphQL API - #3578 by @fowczarek
 - Catch GraphqQL syntax errors and output it to errors field - #3576 by @jxltom
@@ -18,3 +20,4 @@ All notable, unreleased changes to this project will be documented in this file.
 - Fix bug where orders can not be filtered by payment status - #3608 by @jxltom
 - Fix logo placement in dashboard 2.0 when the svg has specific width - #3609 by @jxltom
 - Support get correct payment status for order without any payments - #3605 by @jxltom
+- Unify grid handling - #3520 by @dominik-zeglen
